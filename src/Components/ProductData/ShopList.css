@@ -1,0 +1,34 @@
+.shop{
+    margin-top: 10rem;
+}
+
+.top-content{
+    text-align: center;
+    color: black;
+}
+.card-img img{
+    width: 100%;
+}
+
+.card-info h5{
+    color:#555151 ;
+}
+.card-info h6{
+    color:black ;
+}
+
+.card-img{
+    overflow: hidden;
+    
+}
+.card-img img{
+    transition: transform .5s ease;
+}
+.card-img:hover img{
+    transform: scale(1.2);
+    opacity: .9;
+}
+.product-card:hover div:nth-child(2){
+    border-bottom: 1px solid #ac1313;
+}
+

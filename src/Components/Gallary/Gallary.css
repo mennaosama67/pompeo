@@ -1,0 +1,25 @@
+.gallary-wrapper{
+    margin-top: 9rem;
+    
+}
+
+.gallary-img{
+    margin-left: 5rem;
+  
+}
+
+.gallary-img img{
+    width:55%;
+}
+.gallary-content{
+    margin-top: 6rem;
+}
+.view-link{
+    color: black;
+}
+.gallary-img-second{
+    margin-left: 8rem;
+}
+.gallary-img-second img{
+    width:75%;
+}

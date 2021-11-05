@@ -1,0 +1,45 @@
+.shop-cart{
+  position: relative;
+  transform: scaleY(0.98); 
+
+ 
+  margin-top: 5rem;
+}
+.cart-details{
+    margin-top: 0;
+}
+.quantity span{
+    color: crimson;
+    padding: 0 20px;
+}
+.quantity .count{
+width: 40px;
+height: 30px;
+color: white;
+background-color: black;
+border: none;
+cursor: pointer;
+}
+.delete{
+
+    color: rgb(117, 115, 115);
+    font-weight: bolder;
+}
+.delete:hover{
+    color: crimson;
+    cursor: pointer;
+}
+.total{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+.total h3{
+    color: black;
+    font-weight:700;
+}
+.empty{
+    text-align: center;
+    margin-top:20rem;
+}

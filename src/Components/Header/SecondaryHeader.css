@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+.secondary-header{
+    position: relative;
+    margin-top: 5rem;
+    font-family: 'Zen Antique', serif;
+    height: 60vh;
+    width: 100%;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.secondary-header::before{
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(194, 189, 189, 0.274);
+}
+.head-title {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+   width: 30%;
+     background-color: rgba(172, 170, 167, 0.74);
+    text-align: center;
+    
+}
+.head-title span{
+    
+    
+    font-weight: bolder;
+    font-size:3.5rem;
+    background: -webkit-linear-gradient(rgb(0, 0, 0), rgb(102, 102, 102), rgb(0, 0, 0));
+  background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width:835px) {
+  
+    .head-title span{
+
+        font-size:1.7rem;
+    }
+}
