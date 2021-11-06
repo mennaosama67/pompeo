@@ -53,7 +53,7 @@ const removeProduct=(id)=>{
     <div className="container shop-cart ">
       {cart.map((item) => (
         <div
-          className="container card cart-details ms-5 py-5 my-3"
+          className="container card cart-details mx-2 py-5 my-3"
           key={item.id}
         >
           <div className="row ">
