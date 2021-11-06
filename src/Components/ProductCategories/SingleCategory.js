@@ -8,14 +8,14 @@ function SingleCategory({category}) {
     let categoryImg='';
     if(category==='mugs'){
      styleClass='mug';
-      categoryImg='https://mennaosama67.github.io/images/icons/mug.png';
+      categoryImg='../../images/icons/mug.png';
     }else if(category==='vases'){
         styleClass='vase';
-        categoryImg='https://mennaosama67.github.io/images/icons/vase.png';
+        categoryImg='../../images/icons/vase.png';
     }
     else{
         styleClass='plate';
-        categoryImg='https://mennaosama67.github.io/images/icons/plates.png'; 
+        categoryImg='../../images/icons/plates.png'; 
     }
   
     
